@@ -40,7 +40,7 @@ namespace ConsoleApp1
             int d = Int32.Parse(b);
             int e = d;
             int c = d;
-
+            Console.WriteLine("begin22: ");
 
 
 
