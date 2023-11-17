@@ -161,34 +161,31 @@ namespace ConsoleApp1
         static void if9()
         {
             Console.WriteLine("Введите 2 числа");
-            double c = Convert.ToDouble(Console.ReadLine());
-            double d = Convert.ToDouble(Console.ReadLine());
-            double A = 0;
-            double B = 0;
-            if (c > d)
+            double A = Convert.ToDouble(Console.ReadLine());
+            double B = Convert.ToDouble(Console.ReadLine());
+            double C = 0;
+            if (A > B)
             {
-                A = d;
-                B = c;
-                Console.WriteLine("Число A= " + A);
-                Console.WriteLine("Число B= " + B);
-            }
-            else if (c < d)
-            {
-                A = c;
-                B = d;
+                C = B;
+                B = A;
+                A = C;
                 Console.WriteLine("Число A = " + A);
                 Console.WriteLine("Число B = " + B);
             }
             else
             {
-                Console.WriteLine("Числа равны ");
+                Console.WriteLine("Число A = " + A);
+                Console.WriteLine("Число B = " + B);
             }
         }
 
         static void Main(string[] args)
         {
 
-         
+            
+
+            
+
 
 
         }
